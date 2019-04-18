@@ -2,6 +2,12 @@
 
 Proof of Concept for a 2d camera that loops infinitely regardless of map size and aspect ratio
 
+## Potential Improvements
+* Adjust for aspect ratio change mid-scene
+* Consolidate to one management script or a prefab
+* Add a swipe controlled Dolly
+  * Add a 'sway' factor to lag behind camera rig's momentum
+
 ## Hierarchy
 
 * Main Camera
@@ -32,3 +38,6 @@ Attached to the Main Camera for no particular reason. Just needs access to calcu
   * Quarterway through the map is 90° rotation
   * Halfway point is 180° rotation
   * etc
+
+## License
+This is just a Proof on concept, no claim to copyright. Do whatever you want with it
