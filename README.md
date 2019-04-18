@@ -8,7 +8,7 @@ Proof of Concept for a 2d camera that loops infinitely regardless of map size an
   * TrailCamera
 * SceneLeftRoot !!y=0!!
   * Map background <left edge placed at x=0>
-  *  > SceneRightRoot <placed on rightmost x> !!y=0!!
+  *  *  SceneRightRoot <placed on rightmost x> !!y=0!!
   * <All GameObjects to exist "on" the map>
 
 
