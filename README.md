@@ -5,11 +5,11 @@ Proof of Concept for a 2d camera that loops infinitely regardless of map size an
 #### Hierarchy
 
 * Main Camera
-..* TrailCamera
+  * TrailCamera
 * SceneLeftRoot !!y=0!!
-..* Map background <left edge placed at x=0>
-..* - SceneRightRoot <placed on rightmost x> !!y=0!!
-..* <All GameObjects to exist "on" the map>
+  * Map background <left edge placed at x=0>
+  *  > SceneRightRoot <placed on rightmost x> !!y=0!!
+  * <All GameObjects to exist "on" the map>
 
 
 #### ScreenClipRight Script
@@ -28,7 +28,7 @@ Purpose: By dynamically positioning the root onStart(), we account for all aspec
 Attached to the Main Camera for no particular reason. Just needs access to calculate or ask for Map Length. This script:
 * Has a "SpinningRoot" game object that you give it
 * Will rotate assigned object based on current camera position:
-..* Starting position is 0° rotation
-..* Quarterway through the map is 90° rotation
-..* Halfway point is 180° rotation
-..* etc
+  * Starting position is 0° rotation
+  * Quarterway through the map is 90° rotation
+  * Halfway point is 180° rotation
+  * etc
