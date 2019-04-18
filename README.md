@@ -40,4 +40,5 @@ Attached to the Main Camera for no particular reason. Just needs access to calcu
   * etc
 
 ## License
-This is just a Proof on concept, no claim to copyright. Do whatever you want with it
+This is just a Proof on concept project, sharing if it helps anyone. See the [license file](../LICENSE.md) for license rights and limitations (MIT).
+
